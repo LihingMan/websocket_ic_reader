@@ -15,7 +15,7 @@
 
 6. Inside "command" change the **"Default"** value into the path to the ".exe".  (Double click **"Default"** to open up the editor)
 
-7. Wrap the path in "" as shown in the image and then follow it up with **"%1"** at the end. 
+7. Wrap the path in "" and then follow it up with **"%1"** at the end. 
 (e.g. "C:\Users\Dell\Desktop\ic_script\websocket_client.exe" "%1")
 
 8. **"%1"** is for the .exe to accept arguments. 
