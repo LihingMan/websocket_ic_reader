@@ -269,7 +269,7 @@ const char* ic_reader()
 
 int main(int argc, char* argv[]) {
 	FreeConsole();
-	char s_url[200] = {"ws://192.168.68.134:8000/visitor/"};
+	char s_url[200] = {"ws://192.168.68.134:8000/visitor/"}; // change this to use your own websocket endpoint
 	if (argc > 1) {
 		// split argument by ":" and take the session id
 		char* token;
